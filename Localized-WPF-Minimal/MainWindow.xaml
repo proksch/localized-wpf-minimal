@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPF_TestSolution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:props="clr-namespace:WPF_TestSolution.Properties"
+        Title="MainWindow" Height="300 " Width="400">
+    <Grid>
+        <Label Content="{x:Static props:Resources.LabelA}" HorizontalAlignment="Left" Margin="168,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.211,-0.5"/>
+        <Label Content="{x:Static props:Resources.LabelB}" HorizontalAlignment="Left" Margin="168,97,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.211,-0.5"/>
+        <Label Content="{x:Static props:Resources.LabelC}" HorizontalAlignment="Left" Margin="168,128,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.211,-0.5"/>
+    </Grid>
+</Window>
